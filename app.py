@@ -3,8 +3,8 @@ from streamlit_option_menu import option_menu
 import joblib
 
 
-diabetes_model = joblib.load('C:/Users/sagar/OneDrive/Desktop/Multiple-Disease/models/diabetes_model.sav','rb')
-heart_model= joblib.load('C:/Users/sagar/OneDrive/Desktop/Multiple-Disease/models/heart_model.sav','rb')
+diabetes_model = joblib.load('models/diabetes_model.sav','rb')
+heart_model= joblib.load('models/heart_model.sav','rb')
 
 
 
